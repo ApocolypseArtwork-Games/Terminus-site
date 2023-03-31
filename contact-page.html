@@ -18,10 +18,11 @@
         }
         nav{
             background-color: #272020;
-            width: 1000px;
+            width: 900px;
             height: 100px;
             margin-left: 10%;
             margin-top: 5%;
+            
         }
 
         
@@ -29,14 +30,54 @@
             list-style-type: none; /*removes bullets*/
             float: left;
             width: 100%;
+            
         }
-        
+        ol{
+            list-style-type: none; /*removes bullets*/
+            float: left;
+            width: 100%;
+            margin: 0px;
+            
+        }
         li{
             float: left; /*puts links next to eachover*/
             margin-left: 5%;
             
         }
-
+        .contact a{
+            
+            align-content: center;
+            display: block; /*does whole width*/
+            color: white; /*colour of text*/
+            font-size: 20px; /*size*/
+            text-align: center;
+            text-decoration: none; /*removes underline*/
+            padding-top: 5px;
+            padding-left: 5px;
+        }
+        .contact a:hover{
+            float: left;
+            color: lightblue;
+            
+            background-color: rgb(8, 8, 7);
+        }
+        .contact2 a{
+            
+            align-content: center;
+            display: block; /*does whole width*/
+            color: white; /*colour of text*/
+            font-size: 20px; /*size*/
+            text-align: center;
+            text-decoration: none; /*removes underline*/
+            padding-top: 5px;
+            padding-left: 5px;
+        }
+        .contact2 a:hover{
+            float: left;
+            color: lightblue;
+            
+            background-color: rgb(8, 8, 7);
+        }
         li a{
             
             align-content: center;
@@ -104,6 +145,13 @@
     .sectionone{
         display: grid; grid-template-columns: auto auto; 
     }
+    .grid{
+        display: grid; grid-template-columns: auto auto; 
+    }
+    .subgrid{
+        width: fit-content;
+        max-width: fit-content;
+    }
     .casualAD{
         border-radius: 15px;
         width: 160px;
@@ -117,9 +165,18 @@
     .contacts{
         float: top;
         height: fit-content;
-        width: fit-content;
+        width: 1080px;
         margin: 0 auto;
         margin-left: 50px;
+        
+    }
+    .contacts2{
+        float: top;
+        height: fit-content;
+        width: 720px;
+        margin: 0 auto;
+        margin-left: 0px;
+        
     }
     .one{
         border-radius: 25px;
@@ -130,6 +187,32 @@
         padding-bottom: 5px;
         margin-top: 5px;
     }
+    .two{
+        /* doing the footer to add contacts there too*/
+        border-radius: 25px;
+        padding-top: 5px;
+        background-color: #272020;
+        width: fit-content;
+        height: fit-content;
+        padding-bottom: 5px;
+        margin-top: 5px;
+    }
+    .nav2{
+        
+            background-color: #27202000;
+            width: 750px;
+            height: 100px;
+            margin-left: 5%;
+            margin-top: 1%;
+    }
+    .nav3{
+        
+        background-color: #27202000;
+        width: 100%;
+        height: 100px;
+        margin-left: 0px;
+        margin-top: 1%;
+}
     .headding{
         
         margin-left: 5%;
@@ -141,10 +224,32 @@
         text-align: center;
         text-decoration: underline;
     }
+    .headding2{
+        
+        margin-left: 5%;
+        border-radius: 25px;
+        font-size: 32px;
+        color: #2D2D2D;
+        height: fit-content;
+        width: 90%;
+        background-color: #D9D9D9;
+        text-align: center;
+        text-decoration: underline;
+    }
     .subheader{
+        margin-left: 2.5%;
+
         font-size: 18px;
         height: fit-content;
-        width: 1080px;
+        width: 95%;
+        color: #D9D9D9;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .subheader2{
+        font-size: 18px;
+        height: fit-content;
+        width: fit-content;
         color: #D9D9D9;
         margin-top: 5px;
         text-align: center;
@@ -152,11 +257,68 @@
     .contact{
         font-size: 18px;
         height: fit-content;
-        width: 1080px;
+        width: 95%;
+        margin-left: 2.5%;
         color: #D9D9D9;
         margin-top: 5px;
         text-align: center;
     }
+    .contact2{
+        
+        font-size: 18px;
+        height: 100px;
+        width: fit-content;
+        color: #D9D9D9;
+        margin-top: 5px;
+        text-align: center;
+        
+    }
+   
+    .icon{
+        float: top;
+        max-width: fit-content;
+        max-height: fit-content;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+    }
+    .icon2-1{
+        float: left;
+        max-width: fit-content;
+        max-height: fit-content;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        margin-top: 23.665px;
+        margin-left: 20%;
+        
+        
+
+    }
+    .icon2-2{
+        float: left;
+        max-width: fit-content;
+        max-height: fit-content;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        margin-left: 20%;
+        margin-top: 11.575px;
+
+    }
+    .icon2-3{
+        float: left;
+        max-width: fit-content;
+        max-height: 75px;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        margin-left: 20%;
+        justify-content: center;
+        display: inline;
+
+    }
+    
     footer{
         
         margin-top: 1%;
@@ -208,18 +370,29 @@
     <div class="contacts">
         <div class="one">
             <div class="headding">contact US</div>
-            <div class="subheader"> here ar our contacts:
+            <div class="subheader"> here are our contacts:
                 <div class="contact"> Email: <br>
-                    terminusapocolypsegame@gmail.com
+                    <nav class="nav3">
+                        <div class="icon">
+                        
+                            <a href=mailto:terminusapocolypsegame@gmail.com >terminusapocolypsegame@gmail.com</a>
+                        </div> 
+                    </nav>
                 </div>
-                <div class="contact"> Twitter:
-
+                <div class="contact"> Twitter: <br>
+                <nav class="nav3">    
+                    <div class="icon">
+                        <a href="https://twitter.com/ApocolypseGames"><img src="terminus\Twitter-Symbol.png" width="75px" height="auto"></a>
+                    </div>
+                </nav>
                 </div>
-                <div class="contact"> Facebook:
-
-                </div>
-                <div class="contact"> Youtube:
-
+                
+                <div class="contact"> Youtube: <br>
+                    <nav class="nav3">
+                        <div class="icon">
+                             <a href="https://www.youtube.com/channel/UCnsyRJQnujYBctOB406qNKQ"><img src="terminus\youtube-Icon.png" width="75px" height="auto" ></a>
+                        </div>
+                    </nav>
                 </div>
             </div>
         </div>
@@ -228,7 +401,8 @@
 </div>
 </body>
 <footer>
-
+<div class="grid">
+    <div class="subgrid">
     <div class="dev">
         <a href="developement.html" target="_self"> Developement</a>
     </div>
@@ -241,5 +415,48 @@
     <div class="contact-page">
         <a href="contact-page.html" target=_self>contact us</a>
     </div>
+    </div>
+    <div class="contacts2">
+        <div class="two">
+            <div class="headding2">contact US</div>
+            <div class="subheader2">
+                    <div class="contact2">
+                        
+                            
+                    <nav class="nav2">
+                        
+                        <div class="icon2-1">
+                        
+                            <a href=mailto:terminusapocolypsegame@gmail.com >Email</a>
+                        </div>
+                    
+                    <!--</nav>-->
+                        <!--</div>
+                        <div class="contact2">-->
+                <!--<nav class="nav2">--> 
+                    
+                    <div class="icon2-2">
+                        <a href="https://twitter.com/ApocolypseGames"><img src="terminus\Twitter-Symbol.png" width="75px" height="auto"></a>
+                    </div>
+                
+                <!--</nav>-->
+                        <!--</div>
+                    
+                    <div class="contact2">-->
+                    <!--<nav class="nav2">-->
+                       
+                        <div class="icon2-3">
+                             <a href="https://www.youtube.com/channel/UCnsyRJQnujYBctOB406qNKQ"><img src="terminus\youtube-Icon.png" width="auto" height="70px"></a>
+                        </div>
+                    
+                    </nav>
+                
+                </div>
+                
+                    </div>
+                </div>
+        </div>
+
+</div>
 </footer>
 </html>

@@ -105,6 +105,10 @@
     .grid{
         display: grid; grid-template-columns: auto auto; 
     }
+    .subgrid{
+        width: fit-content;
+        max-width: fit-content;
+    }
     .casualAD{
         border-radius: 15px;
         width: 160px;
@@ -115,6 +119,137 @@
         margin: auto;
         margin-left: 25px;
     }
+    .icon2-1{
+        float: left;
+        max-width: fit-content;
+        max-height: fit-content;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        margin-top: 23.665px;
+        margin-left: 20%;
+        
+        
+
+    }
+    .icon2-2{
+        float: left;
+        max-width: fit-content;
+        max-height: fit-content;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        margin-left: 20%;
+        margin-top: 11.575px;
+
+    }
+    .icon2-3{
+        float: left;
+        max-width: fit-content;
+        max-height: 75px;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        margin-left: 20%;
+        justify-content: center;
+        display: inline;
+
+    }
+    .contact2 a{
+            
+            align-content: center;
+            display: block; /*does whole width*/
+            color: white; /*colour of text*/
+            font-size: 20px; /*size*/
+            text-align: center;
+            text-decoration: none; /*removes underline*/
+            padding-top: 5px;
+            padding-left: 5px;
+        }
+        .contact2 a:hover{
+            float: left;
+            color: lightblue;
+            
+            background-color: rgb(8, 8, 7);
+        }
+        .contacts2{
+        float: top;
+        height: fit-content;
+        width: 720px;
+        margin: 0 auto;
+        margin-left: 0px;
+        
+    }
+    .two{
+        /* doing the footer to add contacts there too*/
+        border-radius: 25px;
+        padding-top: 5px;
+        background-color: #272020;
+        width: fit-content;
+        height: fit-content;
+        padding-bottom: 5px;
+        margin-top: 5px;
+    }
+    .headding2{
+        
+        margin-left: 5%;
+        border-radius: 25px;
+        font-size: 32px;
+        color: #2D2D2D;
+        height: fit-content;
+        width: 90%;
+        background-color: #D9D9D9;
+        text-align: center;
+        text-decoration: underline;
+    }
+    .subheader2{
+        font-size: 18px;
+        height: fit-content;
+        width: fit-content;
+        color: #D9D9D9;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .contact2{
+        
+        font-size: 18px;
+        height: 100px;
+        width: fit-content;
+        color: #D9D9D9;
+        margin-top: 5px;
+        text-align: center;
+        
+    }
+    .nav2{
+        
+        background-color: #27202000;
+        width: 750px;
+        height: 100px;
+        margin-left: 5%;
+        margin-top: 1%;
+}
+.mainbox{
+    border-radius: 25px;
+    width: 1080px;
+    height: calc(fit-content + 10px);
+    background-color: #272020;
+}
+.devloghead{
+    border-radius: 25px;
+    margin-top: 5px;
+    width: 80%;
+    margin-left: 10% ;
+    background-color: #D9D9D9;
+    color: #2D2D2D;
+    text-align: center;
+}
+ .devlog{
+    width: 1080px;
+    height: auto;
+    background-color: #272020;
+    color: #D9D9D9;
+    text-align: center;
+ }
     footer{
         margin-top: 1%;
         background-color: #D9D9D9;
@@ -161,23 +296,87 @@
     <div class= "top2">
         <H1>Developement</H1> <!--H = headding-->
     </div>
-    
+    <div class="grid">
+        <div class="mainbox">
+        <div class="devloghead">the developement of Terminus</div>
+
+        <div class="devlog"> Terminus is created with unreal engine 5.<br>
+        Terminus the game will be low intensity in terms of computer specifications. <br>
+        The specifications for making this game that was lined out at the start are: <br>
+        Based on the word survive. <br>
+        Can run on low end PC's <br>
+        Minimum creation of three 3D models. <br>
+        Evidence of landscape modeling. <br>
+        An environment that reflects my design. <br>
+        Minimum of four gameplay mechanics. <br>
+        My player cannot walk off of edge of environment. <br>
+        Suitable background music and effects. <br>
+        A clear objective and clear when achived. <br>
+        Mo breach in copyright laws. <br>
+        I'll need to get all of this done soon. <br>
+        Wish me luck.
+        </div>
+    </div>
     <div class="casualAD">AD</div>
+</div>
 </body>
 <footer>
-
-    <div class="dev">
-        <a href="developement.html" target="_self"> Developement</a>
-    </div>
-
-    <div class="about-game">
-        <a href="about-game.html" target=_self>about game</a>
-    </div>
-    <div class="updates">
-        <a href="updates.html" target=_self>updates</a>
-    </div>
-    <div class="contact-page">
-        <a href="contact-page.html" target=_self>contact us</a>
+    <div class="grid">
+        <div class="subgrid">
+        <div class="dev">
+            <a href="developement.html" target="_self"> Developement</a>
+        </div>
+        <div class="updates">
+            <a href="updates.html" target=_self>updates</a>
+        </div>
+        <div class="about-game">
+            <a href="about-game.html" target=_self>about game</a>
+        </div>
+        <div class="contact-page">
+            <a href="contact-page.html" target=_self>contact us</a>
+        </div>
+        </div>
+        <div class="contacts2">
+            <div class="two">
+                <div class="headding2">contact US</div>
+                <div class="subheader2">
+                        <div class="contact2">
+                            
+                                
+                        <nav class="nav2">
+                            
+                            <div class="icon2-1">
+                            
+                                <a href=mailto:terminusapocolypsegame@gmail.com >Email</a>
+                            </div>
+                        
+                        <!--</nav>-->
+                            <!--</div>
+                            <div class="contact2">-->
+                    <!--<nav class="nav2">--> 
+                        
+                        <div class="icon2-2">
+                            <a href="https://twitter.com/ApocolypseGames"><img src="terminus\Twitter-Symbol.png" width="75px" height="auto"></a>
+                        </div>
+                    
+                    <!--</nav>-->
+                            <!--</div>
+                        
+                        <div class="contact2">-->
+                        <!--<nav class="nav2">-->
+                           
+                            <div class="icon2-3">
+                                 <a href="https://www.youtube.com/channel/UCnsyRJQnujYBctOB406qNKQ"><img src="terminus\youtube-Icon.png" width="auto" height="70px"></a>
+                            </div>
+                        
+                        </nav>
+                    
+                    </div>
+                    
+                        </div>
+                    </div>
+            </div>
+    
     </div>
 </footer>
 </html>

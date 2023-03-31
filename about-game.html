@@ -111,6 +111,11 @@
     .grid{
         display: grid; grid-template-columns: auto auto; 
     }
+
+    .subgrid{
+        width: fit-content;
+        max-width: fit-content;
+    }
     .headding{
         border-radius: 25px;
         text-align: center;
@@ -216,6 +221,116 @@
     } 
 
     }
+    .icon2-1{
+        float: left;
+        max-width: fit-content;
+        max-height: fit-content;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        margin-top: 23.665px;
+        margin-left: 20%;
+        
+        
+
+    }
+    .icon2-2{
+        float: left;
+        max-width: fit-content;
+        max-height: fit-content;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        margin-left: 20%;
+        margin-top: 11.575px;
+
+    }
+    .icon2-3{
+        float: left;
+        max-width: fit-content;
+        max-height: 75px;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        margin-left: 20%;
+        justify-content: center;
+        display: inline;
+
+    }
+    .contact2 a{
+            
+            align-content: center;
+            display: block; /*does whole width*/
+            color: white; /*colour of text*/
+            font-size: 20px; /*size*/
+            text-align: center;
+            text-decoration: none; /*removes underline*/
+            padding-top: 5px;
+            padding-left: 5px;
+        }
+        .contact2 a:hover{
+            float: left;
+            color: lightblue;
+            
+            background-color: rgb(8, 8, 7);
+        }
+        .contacts2{
+        float: top;
+        height: fit-content;
+        width: 720px;
+        margin: 0 auto;
+        margin-left: 0px;
+        
+    }
+    .two{
+        /* doing the footer to add contacts there too*/
+        border-radius: 25px;
+        padding-top: 5px;
+        background-color: #272020;
+        width: fit-content;
+        height: fit-content;
+        padding-bottom: 5px;
+        margin-top: 5px;
+    }
+    .headding2{
+        
+        margin-left: 5%;
+        border-radius: 25px;
+        font-size: 32px;
+        color: #2D2D2D;
+        height: fit-content;
+        width: 90%;
+        background-color: #D9D9D9;
+        text-align: center;
+        text-decoration: underline;
+    }
+    .subheader2{
+        font-size: 18px;
+        height: fit-content;
+        width: fit-content;
+        color: #D9D9D9;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .contact2{
+        
+        font-size: 18px;
+        height: 100px;
+        width: fit-content;
+        color: #D9D9D9;
+        margin-top: 5px;
+        text-align: center;
+        
+    }
+    .nav2{
+        
+        background-color: #27202000;
+        width: 750px;
+        height: 100px;
+        margin-left: 5%;
+        margin-top: 1%;
+}
+
     footer{
         margin-top: 1%;
         background-color: #D9D9D9;
@@ -308,18 +423,62 @@
 </div>
 </body>
 <footer>
-
-    <div class="dev">
-        <a href="developement.html" target="_self"> Developement</a>
-    </div>
-    <div class="updates">
-        <a href="updates.html" target=_self>updates</a>
-    </div>
-    <div class="about-game">
-        <a href="about-game.html" target=_self>about game</a>
-    </div>
-    <div class="contact-page">
-        <a href="contact-page.html" target=_self>contact us</a>
+    <div class="grid">
+        <div class="subgrid">
+        <div class="dev">
+            <a href="developement.html" target="_self"> Developement</a>
+        </div>
+        <div class="updates">
+            <a href="updates.html" target=_self>updates</a>
+        </div>
+        <div class="about-game">
+            <a href="about-game.html" target=_self>about game</a>
+        </div>
+        <div class="contact-page">
+            <a href="contact-page.html" target=_self>contact us</a>
+        </div>
+        </div>
+        <div class="contacts2">
+            <div class="two">
+                <div class="headding2">contact US</div>
+                <div class="subheader2">
+                        <div class="contact2">
+                            
+                                
+                        <nav class="nav2">
+                            
+                            <div class="icon2-1">
+                            
+                                <a href=mailto:terminusapocolypsegame@gmail.com >Email</a>
+                            </div>
+                        
+                        <!--</nav>-->
+                            <!--</div>
+                            <div class="contact2">-->
+                    <!--<nav class="nav2">--> 
+                        
+                        <div class="icon2-2">
+                            <a href="https://twitter.com/ApocolypseGames"><img src="terminus\Twitter-Symbol.png" width="75px" height="auto"></a>
+                        </div>
+                    
+                    <!--</nav>-->
+                            <!--</div>
+                        
+                        <div class="contact2">-->
+                        <!--<nav class="nav2">-->
+                           
+                            <div class="icon2-3">
+                                 <a href="https://www.youtube.com/channel/UCnsyRJQnujYBctOB406qNKQ"><img src="terminus\youtube-Icon.png" width="auto" height="70px"></a>
+                            </div>
+                        
+                        </nav>
+                    
+                    </div>
+                    
+                        </div>
+                    </div>
+            </div>
+    
     </div>
 </footer>
 </html>
